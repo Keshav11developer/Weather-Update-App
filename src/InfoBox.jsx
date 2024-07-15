@@ -6,8 +6,6 @@ import "./InfoBox.css";
 
 
 export default function InfoBox({info}){
-   
-    //let img_url="https://assamtribune.com/h-upload/2022/03/01/1330873-clouds-weather.webp?width=500&height=300";
     let hot_url= "https://stories.uq.edu.au/contact-magazine/2023/el-nino-is-here-will-it-be-australias-hottest-summer-ever/assets/0FpL4PYE05/uq-contact-el-nino-summer-weather-headline-2560x1440.jpg";
     let cold_url="https://parade.com/.image/t_share/MTkwNTc2MDAyMTcyMzMxMTMz/winter-instagram-captions-1-jpg.jpg";
     let rainy_url ="https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg"
