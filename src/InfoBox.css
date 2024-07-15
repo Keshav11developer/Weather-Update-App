@@ -6,8 +6,8 @@
 }
 
 .MuiCard-root {
-    border-radius: 20px !important; /* Override MUI's default styling */
-    overflow: hidden; /* Ensure that child elements respect the border radius */
+    border-radius: 20px !important; 
+    overflow: hidden; 
 }
 
 .MuiCardMedia-root {
