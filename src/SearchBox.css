@@ -1,28 +1,9 @@
-/* *{
-    background: linear-gradient(to bottom,45degree,#0072ff,#00c6ff);
-   
-}
 
-.SearchBox{
-    text-align: center;
-    
-}
-    */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    
-   /* body {
-        background: linear-gradient(60deg, #0072ff, #00c6ff,#03045e);
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-    } */
-
 
     body {
         margin: 0;
@@ -32,8 +13,8 @@
         justify-content: center;
         align-items: center;
         background: linear-gradient(60deg, #0072ff, #00c6ff, #03045e);
-        background-size: 300% 300%; /* Increased size for more dramatic effect */
-        animation: gradientAnimation 15s ease infinite; /* Longer duration for slower movement */
+        background-size: 300% 300%; 
+        animation: gradientAnimation 15s ease infinite; 
         overflow: hidden;
       }
       
@@ -53,8 +34,8 @@
         color: white;
         font-size: 3rem;
         text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
-        animation: textAnimation 5s ease-in-out infinite alternate; /* Example text animation */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        animation: textAnimation 5s ease-in-out infinite alternate;
       }
       
       @keyframes textAnimation {
@@ -62,26 +43,10 @@
           transform: scale(1);
         }
         100% {
-          transform: scale(1.1); /* Slight scale change for text animation */
+          transform: scale(1.1); 
         }
       }
       
-      
-    
-   /* .SearchBox {
-        text-align: center;
-        background: white; 
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: background 0.5s ease-in-out;
-        
-    }
-    .SearchBox:hover{
-        background: #FFFF00;
-    }
-*/
 .SearchBox {
     text-align: center;
     background: white;
@@ -92,9 +57,9 @@
 }
 
 .SearchBox:hover {
-    background: #f0f0f0; /* Bright yellow background on hover */
-    transform: scale(1.05); /* Scale up the box slightly on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow size for depth */
+    background: #f0f0f0; 
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 @keyframes pulseAnimation {
@@ -110,7 +75,7 @@
 }
 
 .SearchBox:hover {
-    animation: pulseAnimation 2.5s infinite; /* Apply pulse animation on hover */
+    animation: pulseAnimation 2.5s infinite; 
 }
 
 
