@@ -1,6 +1,7 @@
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import Alert from '@mui/material/Alert';
 import "./SearchBox.css";
 import { useState } from 'react';
 
@@ -74,10 +75,8 @@ export default function SearchBox({UpdateInfo}) {
           }}>Search</Button>
       <br />
       <br />
-      {error && <p style={{color:"red"}}> <b>No such place exist in API.</b></p>}
+      {error && <Alert severity="error"><b>No such city exist in this API !</b></Alert>}
       </form>
-      
-      
-    </div>
+     </div>
   );
 }
